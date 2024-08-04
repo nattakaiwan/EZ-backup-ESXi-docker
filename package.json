@@ -1,0 +1,14 @@
+{
+  "name": "ez-backup-esxi",
+  "version": "1.0.0",
+  "description": "EZ Backup ESXi tool",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "node-ssh": "^11.0.0"
+  }
+}
