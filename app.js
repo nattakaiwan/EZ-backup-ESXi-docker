@@ -100,7 +100,7 @@ app.get('/', (req, res) => {
                 <input type="text" id="user" name="user" required><br><br>
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required><br><br>
-                <button type="submit">Download Backup</button>
+                <button type="submit">Backup Now</button>
             </form>
             <div class="progress-bar">
                 <div class="progress-bar-fill" id="progressBarFill">0%</div>
@@ -174,7 +174,7 @@ app.post('/execute', async (req, res) => {
                 const urlMatch = stdout.match(/http:\/\/[^\s]+/);
                 if (urlMatch) {
                     const downloadUrl = urlMatch[0];
-                    const downloadLink = `<a href="${downloadUrl}" class="download-link">Download Output</a>`;
+                    const downloadLink = `<a href="${downloadUrl}" class="download-link">Download Backup</a>`;
                     output += downloadLink;
                 }
             }
