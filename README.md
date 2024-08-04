@@ -13,7 +13,8 @@ Build and run docker container :
 
 Enjoy it :
 ---------------
-- Open web browser go to http://<Your_IP>:3000
+Your project will be built and run in a Docker container on port 3000. You can access the application at http://<Your_IP>:3000
+
 
 
 Result :
