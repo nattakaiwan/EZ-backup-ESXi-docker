@@ -19,4 +19,5 @@ Your project will be built and run in a Docker container on port 3000. You can a
 
 Result :
 ---------------
-![image](https://github.com/user-attachments/assets/ee50b274-34b9-4ac4-ba4a-cb154e3b24af)
+![image](https://github.com/user-attachments/assets/79ef2c9f-2995-45f1-8b87-ae32028a3d7b)
+
